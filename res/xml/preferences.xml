@@ -1,0 +1,27 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+            android:key="pref_number"
+            android:title="@string/etNumberOfCircles"
+            android:inputType="number"
+            android:defaultValue="10"
+            android:dialogTitle="@string/etNumberOfCircles" />
+
+
+    <EditTextPreference
+            android:key="pref_size"
+            android:title="@string/etSize"
+            android:inputType="number"
+            android:defaultValue="100"
+            android:dialogTitle="@string/etSize" />
+
+    <ListPreference 
+        	android:key="pref_bg_color"
+        	android:title="@string/bgColor"
+        	android:defaultValue="White"
+        	android:entries="@array/bg_color_list_entries"
+        	android:entryValues="@array/bg_color_list_values" />
+    
+
+</PreferenceScreen>

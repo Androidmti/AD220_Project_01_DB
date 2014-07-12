@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Bouncing Circles</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">Bouncing Circles</string>
+    <string android:id="@+id/string1" name="tvAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content">Author: Daniel Borodenko</string>
+    <string android:id="@+id/string1" name="tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content">Release Date: 7/11/2014</string>
+    <string android:id="@+id/string1" name="tvVersion" android:layout_width="wrap_content" android:layout_height="wrap_content">Version Number: 1.0</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <color android:id="@+id/color1" name="bgSettings" android:layout_width="wrap_content" android:layout_height="wrap_content">#f5f5dc</color>
+
+    <string name="title_activity_about">About</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="tvAbout">Bouncing Circles displays circles that are moving in different directions. Once the circles hit edge of the screen they bounce off. User can modify number of circles, size of circles, as well as background color.</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="action_about">About</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="etNumberOfCircles">Number of circles</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="etSize">Size of circles</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="bgColor">Background color</string>
+
+</resources>
